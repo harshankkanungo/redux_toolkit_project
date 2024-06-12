@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+  width: 100%;
+  height: max-content;
+  background: cadetblue;
+  color: black;
+  margin-bottom: 20px;
+  padding: 6px;
+}
+body {
+  background-color: lightblue;
+}
+
+.btn {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 22%;
+}
+.btn button {
+  padding: 6px;
+  border-radius: 1px;
+  color: black;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, rgb(99, 99, 240), rgb(239, 103, 126));
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+h2 {
+  text-transform: capitalize;
+}
+.btn button:hover {
+  color: rgb(181 255 60);
+}
+p {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+}
+ul {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  column-gap: 30px;
+  text-decoration: dotted;
+  text-transform: capitalize;
+}
+ul li {
+  font-size: 20px;
+}
+ul li:hover {
+  color: blue;
+  cursor: pointer;
+}
+@media (max-width: 468px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  ul {
+    flex-direction: column;
+    row-gap: 5px;
+    column-gap: 0;
+  }
+  .btn {
+    display: inline-block;
+  }
+}
+.show p {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(185, 201, 165);
+  padding: 5px;
+}
+.show button {
+  font-size: 14px;
+  background: transparent;
+  outline: none;
+  border: none;
+  text-align: center;
+  margin-top: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0px 20px;
+}
+.show button:hover {
+  color: red;
+  cursor: pointer;
+}
+.show {
+  padding: 50px;
+}
+.btn1 {
+  text-align: center;
+}
+.btn1 button {
+  padding: 6px;
+  border-radius: 13px;
+  color: black;
+  text-transform: uppercase;
+  background: transparent;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.btn1 button:hover {
+  color: red;
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+}
